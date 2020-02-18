@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageHeader title="Omegaboot Kahoot Bot" subtitle="Created by @idiidk, Updated to support V2!" />
+    <PageHeader title="Kahoot Bot" subtitle="Most functions working in 2020" />
     <LoginForm />
     <InfoBox class="infoBox" />
   </div>
