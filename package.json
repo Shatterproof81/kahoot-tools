@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "host": "node run.js",
     "proxy": "PROXY_ONLY=true node run.js",
-    "start": "concurrently \"npm build\" \"npm host\""
+    "start": "concurrently \"npm run build\" \"npm run host\""
   },
   "dependencies": {
     "concurrently": "^5.1.0",
