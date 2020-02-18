@@ -1,6 +1,6 @@
 {
-  "host": "127.0.0.1",
+  "host": "",
   "corsUrl": "cors-anywhere.herokuapp.com",
   "corsPort": "443",
-  "webPort": "3000"
+  "webPort": ""
 }
