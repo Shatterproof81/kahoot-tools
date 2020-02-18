@@ -13,9 +13,9 @@ import LoginForm from "@/components/LoginForm";
 
 export default {
   components: {
-    PageHeader,
-    LoginForm,
-    InfoBox
+    //PageHeader,
+    LoginForm //,
+    //InfoBox
   }
 };
 </script>
