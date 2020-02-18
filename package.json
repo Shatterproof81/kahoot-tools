@@ -6,9 +6,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "host": "node run.js",
-    "proxy": "PROXY_ONLY=true node run.js"
+    "proxy": "PROXY_ONLY=true node run.js",
+    "start": "concurrently \"npm run build\" \"npm run host\""
   },
   "dependencies": {
+    "concurrently": "^5.1.0",
     "core-js": "^3.2.1",
     "cors-anywhere": "^0.4.1",
     "kahoot-api": "^0.9.3",
