@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "host": "node run.js",
-    "proxy": "PROXY_ONLY=true node run.js"
+    "proxy": "PROXY_ONLY=true node run.js",
+    "start": "npm build & npm serve"
   },
   "dependencies": {
     "core-js": "^3.2.1",
