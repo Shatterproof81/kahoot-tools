@@ -1,5 +1,6 @@
 <template>
   <v-app :dark="true">
+    <StealthOverlay />
     <Notification />
 
     <v-fade-transition mode="out-in">
@@ -30,6 +31,7 @@
 </template>
 
 <script>
+import StealthOverlay from "@/components/StealthOverlay";
 import Notification from "@/components/Notification";
 import PlayerSheet from "@/components/PlayerSheet";
 
@@ -69,7 +71,8 @@ export default {
   },
   components: {
     PlayerSheet,
-    Notification
+    Notification,
+    StealthOverlay
   }
 };
 </script>
