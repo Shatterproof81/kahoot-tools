@@ -1,6 +1,6 @@
 {
-  "host": "",
+  "host": process.env.HOST,
   "corsUrl": "cors-anywhere.herokuapp.com",
   "corsPort": "443",
-  "webPort": ""
+  "webPort": process.env.PORT
 }
