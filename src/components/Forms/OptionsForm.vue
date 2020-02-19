@@ -7,7 +7,7 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-select
+<v-select
           v-model="$globals.options.stealthMode"
           :items="stealthModeItems"
           label="Stealth Mode"
