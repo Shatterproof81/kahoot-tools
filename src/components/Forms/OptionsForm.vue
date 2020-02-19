@@ -4,7 +4,8 @@
       <v-col>
         <v-select v-model="$globals.options.dark" :items="themeItems" label="Theme"></v-select>
       </v-col>
-
+    </v-row>
+    <v-row>
       <v-col>
         <v-select
           v-model="$globals.options.stealthMode"
