@@ -2,9 +2,14 @@ const handler = require("serve-handler");
 const http = require("http");
 const config = require("./config");
 
+/*
 const host = process.env.HOST || config.host;
 const webPort = process.env.PORT || process.env.WEB_PORT || config.webPort;
 const corsPort = process.env.CORS_PORT || config.corsPort;
+*/
+const host = process.env.HOST;
+const webPort = process.env.PORT;
+const corsPort = process.env.CORS_PORT
 
 const corsProxy = require("cors-anywhere");
 const corsServer = corsProxy.createServer({
