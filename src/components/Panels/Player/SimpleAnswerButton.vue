@@ -11,7 +11,7 @@ export default {
   methods: {
     answer(choice) {
       const players = this.$kahoot.getSelectedPlayers();
-
+      this.$globals.notify(`Answering ${choice} for ${players.length}`, "primary")
       players.forEach(player => {
         player.answer(choice);
       });
