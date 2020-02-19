@@ -10,8 +10,9 @@ export default {
   props: ["color", "choice", "disabled"],
   methods: {
     answer(choice) {
+      const notify = this.$globals.notify;
       const players = this.$kahoot.getSelectedPlayers();
-      this.$globals.notify(`Answering ${choice} for ${players.length}`, "primary")
+      notify("Answering " + choice, "primary")
       players.forEach(player => {
         player.answer(choice);
       });
