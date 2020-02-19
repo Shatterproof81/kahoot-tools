@@ -15,7 +15,7 @@ export default {
   watch: {
     "$globals.options.stealthMode"(activated) {
       if (activated) {
-        this.$globals.notify("Scroll down :D", "primary");
+        this.$globals.notify("OMG UR SO SLICK :D", "primary");
       }
     }
   }
